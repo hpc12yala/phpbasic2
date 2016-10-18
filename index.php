@@ -12,14 +12,20 @@ and open the template in the editor.
     <body>
         <?php
         echo 'Hello....PHP BASIC 2';
-          $cars = array("Volvo", "BMW", "Toyota");
+        $cars = array("Volvo", "BMW", "Toyota");
         $arrlength = count($cars);
         for ($x = 0; $x < $arrlength; $x++) {
             echo $cars[$x];
             echo "<hr>";
-           }
-           
-           echo 'invite Danapon';
+        }
+
+        echo 'invite Danapon';
+
+        $colors = array("red", "green", "blue", "yellow");
+
+        foreach ($colors as $value) {
+            echo "$value <br>";
+        }
         ?>
     </body>
 </html>
